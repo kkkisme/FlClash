@@ -65,3 +65,5 @@ jobs:
 
             App version remains 0.8.96. This release is only for validating the proposed loading animation fix.
           files: ./dist/*
+
+# Triggered intentionally for the Windows verification build.
