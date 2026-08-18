@@ -67,3 +67,5 @@ jobs:
 
             App version remains 0.8.96. This release is for visual verification only.
           files: ./dist/*
+
+# Trigger rebuild after workflow creation.
