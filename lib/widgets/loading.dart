@@ -313,7 +313,7 @@ class _ShapeSpec {
 
   static _ShapeSpec lerp(_ShapeSpec begin, _ShapeSpec end, double progress) {
     return _ShapeSpec(
-      points: _lerp(begin.points, end.points, progress),
+      points: _lerp(begin.points, end.points, progress).roundToDouble(),
       innerRadiusRatio: _lerp(
         begin.innerRadiusRatio,
         end.innerRadiusRatio,
