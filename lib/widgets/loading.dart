@@ -63,16 +63,6 @@ class _CommonCircleLoadingState extends State<CommonCircleLoading>
     ),
     // Pentagon.
     _ShapeSpec(points: 5, innerRadiusRatio: 0.81, pointRounding: 0.25),
-    // Horizontal pill.
-    _ShapeSpec(
-      points: 2,
-      innerRadiusRatio: 1,
-      pointRounding: 0.5,
-      valleyRounding: 0.5,
-      widthScale: 0.95,
-      heightScale: 0.52,
-      squash: 1,
-    ),
     // Sunny.
     _ShapeSpec(
       points: 8,
@@ -86,16 +76,6 @@ class _CommonCircleLoadingState extends State<CommonCircleLoading>
       innerRadiusRatio: 0.78,
       pointRounding: 0.62,
       valleyRounding: 0.28,
-    ),
-    // Vertical oval.
-    _ShapeSpec(
-      points: 2,
-      innerRadiusRatio: 1,
-      pointRounding: 0.5,
-      valleyRounding: 0.5,
-      widthScale: 0.62,
-      heightScale: 0.95,
-      squash: 1,
     ),
   ];
 
